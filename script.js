@@ -71,7 +71,7 @@ function caughtSpeeding(speed,birthday){
     if(speed <= 60){
         return 0;
     }
-    if( speed > 61 && <= 81  ){
+    if( speed > 61 && speed <= 81  ){
         return 1;
     }
     if( speed >= 81){
@@ -175,7 +175,7 @@ function tester() {
     document.getElementById("output7").innerHTML = fizz_buzz(number,x);
     document.getElementById("output8").innerHTML = teaParty(tea,candy);
     document.getElementById("output9").innerHTML = blackjack(x,y);
-    document.getElementById("output10").innerHTML = loneSum(a,b,c;
+    document.getElementById("output10").innerHTML = loneSum(a,b,c);
     //test first method, etc
     // test second method, etc
     // test third method, etc
